@@ -228,7 +228,6 @@ const register = (core, args, options, metadata) => {
   proc.on('vnc:create-session', (url, win, options) => {
     sessions[url] = {win, options, capabilities: {}};
     updateApplicationSession();
-    console.warn(proc.args)
   });
 
   proc.on('vnc:destroy-session', (url, win) => {
