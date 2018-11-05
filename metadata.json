@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "noVNC",
+  "category": "network",
+  "singleton": true,
+  "icon": "logo.png",
+  "title": {
+    "en_EN": "noVNC"
+  },
+  "description": {
+    "en_EN": "noVNC Remote Desktop Client"
+  },
+  "files": [
+    "main.js"
+  ]
+}
