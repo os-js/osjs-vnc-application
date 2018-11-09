@@ -43,6 +43,6 @@
   },
   "homepage": "https://github.com/os-js/osjs-vnc-application#readme",
   "osjs": {
-    "type": "application"
+    "type": "package"
   }
 }
