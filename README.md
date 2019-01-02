@@ -20,7 +20,7 @@ Uses [noVNC](https://github.com/novnc/noVNC).
 ## Installation
 
 ```bash
-npm install --save @osjs/vnc-application
+npm install --save --production @osjs/vnc-application
 npm run package:discover
 ```
 
