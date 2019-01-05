@@ -32,6 +32,7 @@ import {h, app} from 'hyperapp';
 import {Box, TextField, Toolbar, Button} from '@osjs/gui';
 import {name as applicationName} from './metadata.json';
 import RFB from '@novnc/novnc/core/rfb.js';
+import osjs from 'osjs';
 
 //
 // OS.js Extension of noVNC CLient
@@ -252,4 +253,4 @@ const register = (core, args, options, metadata) => {
 //
 // Register OS.js Application
 //
-OSjs.register(applicationName, register);
+osjs.register(applicationName, register);

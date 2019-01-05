@@ -10,6 +10,9 @@ module.exports = {
   entry: [
     path.resolve(__dirname, 'index.js'),
   ],
+  externals: {
+    osjs: 'OSjs'
+  },
   optimization: {
     minimize,
   },
