@@ -38,6 +38,6 @@ Now, connect via the OS.js client.
 
 ## TODO
 
-* Desktop resize
-* Capability detection
-* Locales
+- [ ] Desktop resize
+- [ ] Capability detection
+- [ ] Locales
