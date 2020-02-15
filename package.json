@@ -8,7 +8,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "stylelint": "stylelint index.scss src/**/*.scss",
-    "prepublishOnly": "npm run eslint && npm run stylelint && rm ./dist/* && npm run build"
+    "prepublishOnly": "npm run eslint && rm ./dist/* && npm run build"
   },
   "repository": {
     "type": "git",
