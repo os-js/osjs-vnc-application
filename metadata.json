@@ -5,10 +5,12 @@
   "singleton": true,
   "icon": "logo.png",
   "title": {
-    "en_EN": "noVNC"
+    "en_EN": "noVNC",
+    "pt_BR": "noVNC"
   },
   "description": {
-    "en_EN": "noVNC Remote Desktop Client"
+    "en_EN": "noVNC Remote Desktop Client",
+    "pt_BR": "Cliente da área de trabalho remota"
   },
   "files": [
     "main.js"
