@@ -1,7 +1,7 @@
 {
   "name": "@osjs/vnc-application",
-  "version": "0.5.3",
-  "description": "OS.js v3 noVNC Client Application",
+  "version": "0.5.4",
+  "description": "OS.js noVNC Client Application",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint *.js",
