@@ -23,11 +23,11 @@
   ],
   "dependencies": {
     "@novnc/novnc": "^1.0.0",
-    "@osjs/gui": "^4.0.20",
+    "@osjs/gui": "^4.0.31",
     "hyperapp": "^1.2.9"
   },
   "devDependencies": {
-    "@osjs/dev-meta": "^1.0.2"
+    "@osjs/dev-meta": "^1.0.3"
   },
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "BSD-2-Clause",
