@@ -1,6 +1,6 @@
 {
   "name": "@osjs/vnc-application",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "OS.js noVNC Client Application",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
