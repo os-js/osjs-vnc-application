@@ -6,11 +6,13 @@
   "icon": "logo.png",
   "title": {
     "en_EN": "noVNC",
-    "pt_BR": "noVNC"
+    "pt_BR": "noVNC",
+    "fr_FR": "noVNC"
   },
   "description": {
     "en_EN": "noVNC Remote Desktop Client",
-    "pt_BR": "Cliente da área de trabalho remota"
+    "pt_BR": "Cliente da área de trabalho remota",
+    "fr_FR": "Client de connexion à distance noVNC"
   },
   "files": [
     "main.js"
