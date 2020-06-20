@@ -34,17 +34,12 @@ import {name as applicationName} from './metadata.json';
 import RFB from '@novnc/novnc/core/rfb.js';
 import osjs from 'osjs';
 
-//
-// OS.js Extension of noVNC CLient
-//
-class OSjsRFB extends RFB {
-  _screenSize() {
-    return {
-      w: this._target.innerWidth,
-      h: this._target.innerHeight
-    };
-  }
-}
+RFB.prototype._screenSize = function() {
+  return {
+    w: this._target.innerWidth,
+    h: this._target.innerHeight
+  };
+};
 
 //
 // VNC Window Factory
@@ -65,7 +60,7 @@ const vncWindow = (core, proc) => {
   }).render(($content, win) => {
     const sendKey = (ev, down) => rfb.sendKey(0, ev.code, down);
     const setTitle = append => win.setTitle(`${mainTitle} - ${append}`);
-    const rfb = new OSjsRFB($content, url, Object.assign({
+    const rfb = new RFB($content, url, Object.assign({
       shared: true
     }, options));
 
