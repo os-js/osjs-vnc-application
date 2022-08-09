@@ -52,7 +52,7 @@ Now, connect via the OS.js client.
 
 ## Documentation
 
-See the [Official Manuals](https://manual.os-js.org/v3/) for articles, tutorials and guides.
+See the [Official Manuals](https://manual.os-js.org/) for articles, tutorials and guides.
 
 ## Links
 
